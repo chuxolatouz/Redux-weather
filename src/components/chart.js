@@ -4,7 +4,7 @@ import {Sparklines, SparklinesLine, SparklinesReferenceLine} from 'react-sparkli
 
 
 function average(data) {
-  return _.round(_.sum(data)/data.lenght);
+  return _.round(_.sum(data)/data.length);
 }
 
 export default (props) => {
